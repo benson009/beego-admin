@@ -1,17 +1,17 @@
 # beego-admin global configuration
 # redis configuration
 redis:
-  db: 0
-  addr: '127.0.0.1:6379'
+  db: 10
+  addr: '192.168.50.213:6379'
   password: ''
 
 # mysql connect configuration
 mysql:
-  host: '127.0.0.1'
-  port: 3306
+  host: 'jump.allpay.online'
+  port: 10007
   database: 'beego-admin'
   username: 'root'
-  password: 'root'
+  password: 'ab989328'
 
 # other configuration
 other:
